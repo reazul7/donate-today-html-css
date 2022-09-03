@@ -173,3 +173,44 @@ input[type=button] {
     border-radius: 5px;
     margin-top: 10px;
 }
+
+
+/* Our Donate Plan */
+.donate-plan {
+    padding: 20px 0;
+}
+
+.donate-plan-heading p {
+    width: 55%;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    color: #707070;
+}
+
+/* Donate plan card */
+.donate-plan-card {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.donate-single-card {
+    padding: 40px 25px;
+    margin: 0px 10px;
+    border-radius: 5px;
+}
+
+.donate-single-card img {
+    height: 30px;
+    width: 30px;
+}
+
+.donate-single-card h4 {
+    padding: 15px 0;
+}
+
+.skayblue {background-color: #EDF5F6;}
+.redorange {background-color: #FFEEEE;}
+.lightyellow {background-color: #FFF4D6;}
+
