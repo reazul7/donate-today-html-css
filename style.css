@@ -230,7 +230,7 @@ input[type=button] {
     text-align: left;
 }
 
-.top-text-center, .bottom-text-center {transform: translateY(13%); /*for text vertically center*/}
+.top-text-center, .bottom-text-center {transform: translateY(14%); /*for text vertically center*/}
 
 .contribute-left h1 {
     text-align: left;
@@ -264,3 +264,39 @@ input[type=button] {
     height: 400px;
     width: 100%;
 }
+
+
+/* ---------- Get my Updates ---------- */
+.get-updates {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.get-updates p {
+    width: 40%;
+    margin: 0 auto;
+    color: #707070;
+    padding: 10px 0;
+}
+
+.subscribe-btn {
+    width: 50%;
+    margin: 20px auto;
+    background-color: #FFF4D6;
+    padding: 50px 10px;
+}
+
+.subscribe-btn input[type=text] {
+    background-color: lightgray;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+}
+
+.subscribe-btn button {
+    border: none;
+    padding: 7px 15px;
+    background-color: #FF5959;
+    color: white;
+    border-radius: 3px;
+} 
