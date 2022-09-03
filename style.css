@@ -4,6 +4,17 @@
     font-family: 'Courgette', cursive;
 }
 
+h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+
 /* navbar-area */
 nav {
     padding: 10px 50px;
@@ -59,4 +70,45 @@ ul li a {
 
 ul li a:hover {
     background-size: 0 3px, 100% 3px;
-  }
+}
+
+
+/* ---- banner-area ---- */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/donation0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: calc(100vh - 74px); */
+    height: 850px;
+}
+
+.banner-text-area {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 200px;
+}
+
+.banner-text-area h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+}
+
+.banner-text-area p {
+    padding: 20px 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner-text-area button {
+    padding: 7px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
