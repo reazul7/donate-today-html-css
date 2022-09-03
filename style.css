@@ -193,6 +193,7 @@ input[type=button] {
     width: 80%;
     display: flex;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .donate-single-card {
@@ -214,3 +215,52 @@ input[type=button] {
 .redorange {background-color: #FFEEEE;}
 .lightyellow {background-color: #FFF4D6;}
 
+/* ---------- contribute-area ---------- */
+.contribute-area {
+    width: 78%;
+    margin: auto;
+    padding: 65px 0;
+    display: flex;
+}
+
+/* contribute-left */
+.contribute-left {
+    width: 45%;
+    padding-right: 60px;
+    text-align: left;
+}
+
+.top-text-center, .bottom-text-center {transform: translateY(13%); /*for text vertically center*/}
+
+.contribute-left h1 {
+    text-align: left;
+    text-transform: none;
+    padding: 20px 0;
+}
+
+.contribute-left p {
+    color: #707070;
+}
+
+.contribute-btn button {
+    padding: 10px 25px!important;
+    background-color: #FF5959;
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+/* contribute-right */
+.contribute-right {
+    width: 45%;
+    padding-left: 60px;
+}
+.contribute-right img {
+    height: 400px;
+    width: 100%;
+}
