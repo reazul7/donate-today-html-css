@@ -215,32 +215,33 @@ input[type=button] {
 .redorange {background-color: #FFEEEE;}
 .lightyellow {background-color: #FFF4D6;}
 
+
 /* ---------- contribute-area ---------- */
 .contribute-area {
-    width: 78%;
+    width: 80%;
     margin: auto;
-    padding: 65px 0;
+    padding: 60px 10px;
     display: flex;
 }
 
-/* contribute-left */
-.contribute-left {
-    width: 45%;
-    padding-right: 60px;
+/* contribute-text-area */
+.contribute-text-area {
+    width: 50%;
+    padding: 0px 50px;
     text-align: left;
 }
 
-.top-text-center, .bottom-text-center {transform: translateY(14%); /*for text vertically center*/}
-
-.contribute-left h1 {
+.contribute-text-area h1 {
     text-align: left;
     text-transform: none;
     padding: 20px 0;
 }
 
-.contribute-left p {
+.contribute-text-area p {
     color: #707070;
 }
+
+.contribute-text-area {transform: translateY(14%);} /*for text vertically center} */
 
 .contribute-btn button {
     padding: 10px 25px!important;
@@ -255,12 +256,12 @@ input[type=button] {
 }
 
 
-/* contribute-right */
-.contribute-right {
-    width: 45%;
-    padding-left: 60px;
+/* contribute-image-area */
+.contribute-image-area {
+    width: 50%;
+    padding: 0px 30px;
 }
-.contribute-right img {
+.contribute-image-area img {
     height: 400px;
     width: 100%;
 }
