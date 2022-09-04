@@ -10,9 +10,7 @@ h1 {
     text-align: center;
 }
 
-.flex {
-    display: flex;
-}
+.flex {display: flex;}
 
 
 /* navbar-area */
@@ -301,3 +299,47 @@ input[type=button] {
     color: white;
     border-radius: 3px;
 } 
+
+
+/* ---------- Footer Area ---------- */
+footer {
+    background-color: lightslategrey;
+    text-align: center;
+}
+
+.footer-top {
+    width: 50%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.footer-top img {
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.footer-top p {
+    color: #232526;
+    padding: 10px;
+}
+
+.footer-icon i {
+    color: #000000;
+    font-size: 30px;
+    padding: 3px;
+    text-shadow: 3px 7px 13px #414141;
+}
+
+/* copyright-area */
+.copyright-area {
+    background-color: rgb(85, 96, 107);
+    padding: 15px;
+    color: white;
+}
+
+.copyright-area a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
